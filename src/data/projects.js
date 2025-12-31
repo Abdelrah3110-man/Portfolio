@@ -1,0 +1,82 @@
+export const projects = [
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    description:
+      "Full-stack online shopping application with real-time inventory management, secure payments, and admin dashboard.",
+    image:
+      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+    category: "Full Stack",
+    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    metrics: "40% increase in conversion",
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 2,
+    title: "Modern Portfolio",
+    description:
+      "A responsive developer portfolio website featuring dark mode, animations, and contact form integration.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    category: "Web Apps",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    metrics: "100% Lighthouse Score",
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 3,
+    title: "Task Management App",
+    description:
+      "Collaborative project management tool with drag-and-drop kanban boards and real-time updates.",
+    image:
+      "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
+    category: "Web Apps",
+    technologies: ["React", "Firebase", "Tailwind"],
+    metrics: "500+ active users",
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "Weather Dashboard",
+    description:
+      "Real-time weather tracking application using OpenWeather API with location detection.",
+    image:
+      "https://images.unsplash.com/photo-1700569861349-266929be3d4c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Web Apps",
+    technologies: ["React", "API Integration", "CSS3"],
+    metrics: "50ms response time",
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
+    title: "Social Media Dashboard",
+    description:
+      "Analytics dashboard for tracking social media performance across multiple platforms.",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    category: "UI Components",
+    technologies: ["React", "Chart.js", "Material UI"],
+    metrics: "Data visualization",
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 6,
+    title: "Chat Application",
+    description:
+      "Real-time messaging app with WebSocket integration and end-to-end encryption.",
+    image:
+      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+    category: "Full Stack",
+    technologies: ["React", "Socket.io", "Express"],
+    metrics: "Real-time sync",
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+];
+
+export const categories = ["All", "Web Apps", "UI Components", "Full Stack"];
