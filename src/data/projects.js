@@ -40,16 +40,15 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Weather Dashboard",
+    title: "Weather Pedia 2026",
     description:
       "Real-time weather tracking application using OpenWeather API with location detection.",
-    image:
-      "https://images.unsplash.com/photo-1700569861349-266929be3d4c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/Portfolio-react/public/images/projects/weahterPedia-2026.png",
     category: "Web Apps",
-    technologies: ["React", "API Integration", "CSS3"],
+    technologies: ["React", "API Integration", "Tailwind"],
     metrics: "50ms response time",
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://weatherpedia-2026.netlify.app/",
+    githubUrl: "https://github.com/Abdelrah3110-man/Weather-App",
   },
   {
     id: 5,
