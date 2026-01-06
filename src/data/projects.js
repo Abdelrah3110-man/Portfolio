@@ -43,7 +43,7 @@ export const projects = [
     title: "Weather Pedia 2026",
     description:
       "Real-time weather tracking application using OpenWeather API with location detection.",
-    image: "/Portfolio-react/public/images/projects/weahterPedia-2026.png",
+    image: "/images/projects/weahterPedia-2026.png",
     category: "Web Apps",
     technologies: ["React", "API Integration", "Tailwind"],
     metrics: "50ms response time",
