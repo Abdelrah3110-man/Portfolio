@@ -27,16 +27,15 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Task Management App",
+    title: "Modern Vendor Dashboard",
     description:
-      "Collaborative project management tool with drag-and-drop kanban boards and real-time updates.",
-    image:
-      "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
+      "Enterprise-grade vendor management system featuring advanced data grids, real-time filtering, and high-performance data visualization.",
+    image: "/images/projects/dashboard.png",
     category: "Web Apps",
-    technologies: ["React", "Firebase", "Tailwind"],
-    metrics: "500+ active users",
-    demoUrl: "#",
-    githubUrl: "#",
+    technologies: ["React", "TypeScript", "TanStack Table", "Shadcn/UI"],
+    metrics: "Production-ready build",
+    demoUrl: "https://modern-vendor-dashboard.netlify.app/",
+    githubUrl: "https://github.com/Abdelrah3110-man/Modern-Vendor-Dashboard",
   },
   {
     id: 4,
