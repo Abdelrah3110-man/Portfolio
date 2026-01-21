@@ -17,6 +17,7 @@ const Skills = () => {
     "Backend Development": [
       skills.find((skill) => skill.name === "Node.js"),
       skills.find((skill) => skill.name === "MongoDB"),
+      skills.find((skill) => skill.name === "Express"),
     ].filter(Boolean),
     "Other Skills": [
       skills.find((skill) => skill.name === "Git & GitHub"),
@@ -109,7 +110,7 @@ const Skills = () => {
                             </div>
                             <span
                               className={`  text-sx px-2 py-1 rounded-full border ${getLevelColor(
-                                skill.level
+                                skill.level,
                               )}`}>
                               {skill.level}
                             </span>
@@ -128,7 +129,7 @@ const Skills = () => {
                   <div className=" absolute inset-0 bg-linear-to-br from-primary/0 to-primary/5 group-hover:from-primary/5 group-hover:to-primary/5 rounded-2xl transition-all duration-300 pointer-events-none"></div>
                 </div>
               </FadeIn>
-            )
+            ),
           )}
         </div>
       </div>

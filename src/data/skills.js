@@ -52,14 +52,14 @@ export const skills = [
     id: 8,
     name: "Node.js",
     icon: "Server",
-    level: "Basic",
+    level: "Intermediate",
     experience: "Learning",
   },
   {
     id: 9,
     name: "MongoDB",
     icon: "Database",
-    level: "Basic",
+    level: "Intermediate",
     experience: "Learning",
   },
   {
@@ -82,5 +82,12 @@ export const skills = [
     icon: "FileType",
     level: "Basic",
     experience: "Soon",
+  },
+  {
+    id: 13,
+    name: "Express",
+    icon: "server",
+    level: "Intermediate",
+    experience: "Learning",
   },
 ];
