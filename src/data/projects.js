@@ -1,39 +1,37 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Forever E-Commerce",
     description:
-      "Full-stack online shopping application with real-time inventory management, secure payments, and admin dashboard.",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+      "A complete online store with a 3D product viewer, secure checkout, and full order management.",
+    image: "/images/projects/forever.png",
     category: "Full Stack",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    metrics: "40% increase in conversion",
-    demoUrl: "#",
+    technologies: ["MERN Stack", "Three.js", "Cloudinary", "payment"],
+    metrics: "Interactive 3D Experience",
+    demoUrl: "https://forever-frontend-ten-green.vercel.app/",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Modern Portfolio",
+    title: "Apple Website Clone",
     description:
-      "A responsive developer portfolio website featuring dark mode, animations, and contact form integration.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "A high-end clone of Apple’s website focusing on smooth GSAP animations and 3D product modeling.",
+    image: "/images/projects/AppleClone.png",
     category: "Web Apps",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    metrics: "100% Lighthouse Score",
-    demoUrl: "#",
+    technologies: ["React", "Three.js", "GSAP", "Tailwind CSS"],
+    metrics: "Smooth 60FPS Animations",
+    demoUrl: "https://gsap-macbook-pro.netlify.app/",
     githubUrl: "#",
   },
   {
     id: 3,
     title: "Modern Vendor Dashboard",
     description:
-      "Enterprise-grade vendor management system featuring advanced data grids, real-time filtering, and high-performance data visualization.",
+      "An enterprise tool for managing vendors with fast data filtering and beautiful charts.",
     image: "/images/projects/dashboard.png",
-    category: "Web Apps",
+    category: "UI Components",
     technologies: ["React", "TypeScript", "TanStack Table", "Shadcn/UI"],
-    metrics: "Production-ready build",
+    metrics: "Enterprise-Ready UI",
     demoUrl: "https://modern-vendor-dashboard.netlify.app/",
     githubUrl: "https://github.com/Abdelrah3110-man/Modern-Vendor-Dashboard",
   },
@@ -41,39 +39,13 @@ export const projects = [
     id: 4,
     title: "Weather Pedia 2026",
     description:
-      "Real-time weather tracking application using OpenWeather API with location detection.",
+      "A clean weather app that tracks real-time data and detects your location automatically.",
     image: "/images/projects/weahterPedia-2026.png",
     category: "Web Apps",
-    technologies: ["React", "API Integration", "Tailwind"],
-    metrics: "50ms response time",
+    technologies: ["React", "OpenWeather API", "Tailwind"],
+    metrics: "Real-time Tracking",
     demoUrl: "https://weatherpedia-2026.netlify.app/",
     githubUrl: "https://github.com/Abdelrah3110-man/Weather-App",
-  },
-  {
-    id: 5,
-    title: "Social Media Dashboard",
-    description:
-      "Analytics dashboard for tracking social media performance across multiple platforms.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    category: "UI Components",
-    technologies: ["React", "Chart.js", "Material UI"],
-    metrics: "Data visualization",
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 6,
-    title: "Chat Application",
-    description:
-      "Real-time messaging app with WebSocket integration and end-to-end encryption.",
-    image:
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
-    category: "Full Stack",
-    technologies: ["React", "Socket.io", "Express"],
-    metrics: "Real-time sync",
-    demoUrl: "#",
-    githubUrl: "#",
   },
 ];
 
