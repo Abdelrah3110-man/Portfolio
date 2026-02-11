@@ -25,16 +25,17 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Modern Vendor Dashboard",
+    title: "Nexus Core Chat",
     description:
-      "An enterprise tool for managing vendors with fast data filtering and beautiful charts.",
-    image: "/images/projects/dashboard.png",
-    category: "UI Components",
-    technologies: ["React", "TypeScript", "TanStack Table", "Shadcn/UI"],
-    metrics: "Enterprise-Ready UI",
-    demoUrl: "https://modern-vendor-dashboard.netlify.app/",
-    githubUrl: "https://github.com/Abdelrah3110-man/Modern-Vendor-Dashboard",
+      "A real-time communication platform featuring instant messaging, online presence tracking, and cloud-based media sharing.",
+    image: "/images/projects/nexus-core.png",
+    category: "Full Stack",
+    technologies: ["MERN Stack", "Pusher", "Cloudinary", "Tailwind CSS"],
+    metrics: "Low-Latency Real-time Sync",
+    demoUrl: "https://chat-app-kappa-gilt-90.vercel.app/",
+    githubUrl: "#",
   },
+
   {
     id: 4,
     title: "Weather Pedia 2026",
@@ -46,6 +47,19 @@ export const projects = [
     metrics: "Real-time Tracking",
     demoUrl: "https://weatherpedia-2026.netlify.app/",
     githubUrl: "https://github.com/Abdelrah3110-man/Weather-App",
+  },
+
+  {
+    id: 5,
+    title: "Modern Vendor Dashboard",
+    description:
+      "An enterprise tool for managing vendors with fast data filtering and beautiful charts.",
+    image: "/images/projects/dashboard.png",
+    category: "UI Components",
+    technologies: ["React", "TypeScript", "TanStack Table", "Shadcn/UI"],
+    metrics: "Enterprise-Ready UI",
+    demoUrl: "https://modern-vendor-dashboard.netlify.app/",
+    githubUrl: "https://github.com/Abdelrah3110-man/Modern-Vendor-Dashboard",
   },
 ];
 
