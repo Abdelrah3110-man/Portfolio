@@ -1,6 +1,6 @@
 export const PERSONAL_INFO = {
   name: "Abdelrahman Mahmoud",
-  title: "React Developer & UI/UX Enthusiast",
+  title: "MERN Stack Developer & UI/UX Enthusiast",
   email: "ab10do258224@gmail.com",
   location: "Suez, Egypt",
   tagline: "Crafting Scalable Web Applications with Precision and Passion.",
