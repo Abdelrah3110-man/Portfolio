@@ -24,6 +24,18 @@ export const projects = [
     githubUrl: "#",
   },
   {
+    id: 6,
+    title: "Modern Vendor Dashboard",
+    description:
+      "Enterprise tool for managing vendors with fast data filtering and beautiful charts.",
+    image: dashboardImg,
+    category: "UI Components",
+    technologies: ["React", "TypeScript", "TanStack Table", "Shadcn/UI"],
+    metrics: "Enterprise-Ready UI",
+    demoUrl: "https://modern-vendor-dashboard.netlify.app/",
+    githubUrl: "#",
+  },
+  {
     id: 3,
     title: "Nexus Core Chat",
     description:
