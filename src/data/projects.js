@@ -1,5 +1,17 @@
 export const projects = [
   {
+    id: 6,
+    title: "Syntax LMS Platform",
+    description:
+      "A professional learning management system with high-speed video streaming and an advanced instructor dashboard.",
+    image: syntaxImg,
+    category: "Full Stack",
+    technologies: ["Node.js", "Express", "MongoDB", "React", "Video Streaming"],
+    metrics: "High-Speed Performance",
+    demoUrl: "https://kemet-alpha.vercel.app",
+    githubUrl: "#",
+  },
+  {
     id: 1,
     title: "Forever E-Commerce",
     description:
