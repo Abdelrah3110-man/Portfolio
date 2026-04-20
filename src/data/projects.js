@@ -8,7 +8,7 @@ export const projects = [
     category: "Full Stack",
     technologies: ["Node.js", "Express", "MongoDB", "React", "Video Streaming"],
     metrics: "High-Speed Performance",
-    demoUrl: "https://kemet-alpha.vercel.app",
+    demoUrl: "https://syntax-frontend-rho.vercel.app",
     githubUrl: "#",
   },
   {
