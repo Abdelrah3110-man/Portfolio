@@ -4,7 +4,7 @@ export const projects = [
     title: "Syntax LMS Platform",
     description:
       "A professional learning management system with high-speed video streaming and an advanced instructor dashboard.",
-    image: syntaxImg,
+    image: "/images/projects/syntax.png",
     category: "Full Stack",
     technologies: ["Node.js", "Express", "MongoDB", "React", "Video Streaming"],
     metrics: "High-Speed Performance",
