@@ -32,7 +32,7 @@ export const projects = [
     category: "Web Apps",
     technologies: ["React", "Three.js", "GSAP", "Tailwind CSS"],
     metrics: "Smooth 60FPS Animations",
-    demoUrl: "https://gsap-macbook-pro.netlify.app/",
+    demoUrl: "https://macbook-landing-rose.vercel.app/",
     githubUrl: "#",
   },
 
@@ -58,7 +58,7 @@ export const projects = [
     category: "Web Apps",
     technologies: ["React", "OpenWeather API", "Tailwind"],
     metrics: "Real-time Tracking",
-    demoUrl: "https://weatherpedia-2026.netlify.app/",
+    demoUrl: "https://weather-app-pi-taupe-59.vercel.app/",
     githubUrl: "https://github.com/Abdelrah3110-man/Weather-App",
   },
 
@@ -71,7 +71,7 @@ export const projects = [
     category: "UI Components",
     technologies: ["React", "TypeScript", "TanStack Table", "Shadcn/UI"],
     metrics: "Enterprise-Ready UI",
-    demoUrl: "https://modern-vendor-dashboard.netlify.app/",
+    demoUrl: "https://modern-vendor-dashboard.vercel.app/",
     githubUrl: "https://github.com/Abdelrah3110-man/Modern-Vendor-Dashboard",
   },
 ];
