@@ -1,5 +1,22 @@
 export const projects = [
   {
+    id: 7,
+    title: "Gym Matrix SaaS",
+    description:
+      "A complete multi-tenant gym management ecosystem featuring POS sales, inventory tracking, HR payroll, and member portals.",
+    image: "/images/projects/gym.png", 
+    category: "Full Stack",
+    technologies: ["MERN Stack", "Multi-Tenant", "Tailwind CSS", "Zod"],
+    metrics: "Production-Ready SaaS",
+    demoUrl: "https://gym-system-ebon.vercel.app/", 
+    githubUrl: "#",
+    credentials: {
+      email: "owner1@gym.com",
+      password: "123456",
+      note: "Use these credentials to log in as Gym Owner and test the full dashboard."
+    }
+  },
+  {
     id: 6,
     title: "Syntax LMS Platform",
     description:
@@ -35,7 +52,6 @@ export const projects = [
     demoUrl: "https://macbook-landing-rose.vercel.app/",
     githubUrl: "#",
   },
-
   {
     id: 3,
     title: "Nexus Core Chat",
@@ -48,7 +64,6 @@ export const projects = [
     demoUrl: "https://chat-app-kappa-gilt-90.vercel.app/",
     githubUrl: "#",
   },
-
   {
     id: 4,
     title: "Weather Pedia 2026",
@@ -61,7 +76,6 @@ export const projects = [
     demoUrl: "https://weather-app-pi-taupe-59.vercel.app/",
     githubUrl: "https://github.com/Abdelrah3110-man/Weather-App",
   },
-
   {
     id: 5,
     title: "Modern Vendor Dashboard",
