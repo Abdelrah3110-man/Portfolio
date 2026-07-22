@@ -8,7 +8,7 @@ export const projects = [
     category: "Full Stack",
     technologies: ["MERN Stack", "Multi-Tenant", "Tailwind CSS", "Zod"],
     metrics: "Production-Ready SaaS",
-    demoUrl: "https://gym-system-ebon.vercel.app/", 
+    demoUrl: "https://demo-gym-blue.vercel.app/", 
     githubUrl: "#",
     credentials: {
       email: "owner1@gym.com",
