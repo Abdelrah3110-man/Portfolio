@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 7,
-    title: "Gym Matrix SaaS",
+    title: "Ultimate Gym System",
     description:
       "A complete multi-tenant gym management ecosystem featuring POS sales, inventory tracking, HR payroll, and member portals.",
     image: "/images/projects/gym.png", 
